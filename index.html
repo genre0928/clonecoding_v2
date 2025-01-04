@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- index.css 파일에 style.css 등을 import하여 하나로 통합함 -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
   </head>
   <body>
     <header>
@@ -16,13 +23,13 @@
         </div>
         <div class="device__info_group">
           <div class="device__info_signal">
-            <div>S</div>
+            <img src="assets/signal.svg" alt="S" />
           </div>
           <div class="device__info_wifi">
-            <div>W</div>
+            <img src="assets/wifi.svg" alt="W" />
           </div>
           <div class="device__info_battery">
-            <div>B</div>
+            <img src="assets/battery.svg" alt="B" />
           </div>
         </div>
       </div>
@@ -31,7 +38,7 @@
       <div class="main__index">
         <div class="main__index_item">
           <span>브랜드</span>
-          <span>new</span>
+          <span class="main__index_item_new">new</span>
         </div>
         <div class="main__index_item">랭킹</div>
         <div class="main__index_item">스토어</div>
@@ -58,18 +65,18 @@
         <div class="main__brand_items">
           <div class="main__brand_item">
             <button class="main__brand_item_icon">♡</button>
-            <div class="main__brand_item_logo">로고</div>
+            <img src="assets/vans.png" alt="V" />
             <div class="main__brand_item_brandname">반스</div>
           </div>
           <div class="main__brand_item">
             <button class="main__brand_item_icon">♡</button>
-            <div class="main__brand_item_logo">로고</div>
+            <img src="assets/adidas.png" alt="A" />
             <div class="main__brand_item_brandname">아디다스</div>
           </div>
           <div class="main__brand_item">
             <button class="main__brand_item_icon">♡</button>
-            <div class="main__brand_item_logo">로고</div>
-            <div class="main__brand_item_brandname">언코티드</div>
+            <img src="assets/apple.png" alt="A" />
+            <div class="main__brand_item_brandname">애플</div>
           </div>
         </div>
       </div>
@@ -77,19 +84,19 @@
         <div class="main__category_index">카테고리</div>
         <div class="main__category_items">
           <div class="main__category_item">
-            <div class="main__category_item_icon">I</div>
+            <img src="assets/index.svg" alt="" />
             <div class="main__category_item_name">전체보기</div>
           </div>
           <div class="main__category_item">
-            <div class="main__category_item_icon">I</div>
+            <img src="assets/index.svg" alt="" />
             <div class="main__category_item_name">상의</div>
           </div>
           <div class="main__category_item">
-            <div class="main__category_item_icon">I</div>
+            <img src="assets/index.svg" alt="" />
             <div class="main__category_item_name">하의</div>
           </div>
           <div class="main__category_item">
-            <div class="main__category_item_icon">I</div>
+            <img src="assets/index.svg" alt="" />
             <div class="main__category_item_name">아우터</div>
           </div>
         </div>
@@ -98,19 +105,19 @@
     <footer>
       <div class="menu__boxes">
         <div class="menu__boxes_item">
-          <div class="menu__boxes_item_icon">H</div>
+          <img src="assets/home.svg" alt="H" />
           <div class="menu__boxes_item_name">홈</div>
         </div>
         <div class="menu__boxes_item">
-          <div class="menu__boxes_item_icon">C</div>
+          <img src="assets/clothes.svg" alt="C" />
           <div class="menu__boxes_item_name">코디</div>
         </div>
         <div class="menu__boxes_item">
-          <div class="menu__boxes_item_icon">P</div>
+          <img src="assets/pin.svg" alt="P" />
           <div class="menu__boxes_item_name">핀</div>
         </div>
         <div class="menu__boxes_item">
-          <div class="menu__boxes_item_icon">M</div>
+          <img src="assets/mypage.svg" alt="M" />
           <div class="menu__boxes_item_name">MY 룩핀</div>
         </div>
       </div>

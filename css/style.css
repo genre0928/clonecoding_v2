@@ -39,14 +39,20 @@ footer {
 .device__info_signal,
 .device__info_wifi,
 .device__info_battery {
+  width: 18px;
   display: flex;
-  justify-content: space-between;
-  margin: 0px 12px 0px 12px;
+  justify-content: center;
+  margin: 0px 3px 0px 3px;
 }
 
 .main__index {
   width: 350px;
   height: 30px;
+}
+
+.main__index_item_new {
+  color: red;
+  font-size: 12px;
 }
 
 .main__ad,
@@ -63,7 +69,7 @@ footer {
 
 .main__index {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -136,6 +142,11 @@ footer {
   align-items: center;
 }
 
+.main__brand_item img {
+  width: 80px;
+  height: 80px;
+}
+
 .main__brand_item_brandname {
   width: 100px;
   height: 30px;
@@ -162,18 +173,22 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 5px 0 5px;
 }
 
 .main__category_item_icon {
   width: 30px;
   height: 30px;
-  background-color: gray;
-  color: black;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px 5px 0px 5px;
+}
+
+.main__category_item img {
+  width: 30px;
+  height: 30px;
 }
 
 .main__category_item_name {
@@ -195,6 +210,16 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.menu__boxes_item img {
+  width: 30px;
+  height: 30px;
+}
+
+.menu__boxes_item_name {
+  margin: 2px 0 0 0;
+  font-size: 13px;
 }
 
 /* 수도 함수 */

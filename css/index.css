@@ -1,0 +1,10 @@
+/* 경로 설정할 때 같은 폴더 내에서는 css/가 아닌 ./로 지정해야 반영됨 */
+@import "./style.css";
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-weight: bold;
+}
