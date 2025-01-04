@@ -210,6 +210,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 1s ease-in-out;
 }
 
 .menu__boxes_item img {
@@ -222,9 +223,31 @@ footer {
   font-size: 13px;
 }
 
+/* 애니메이션 */
+
+@keyframes moving-icons {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /* 수도 함수 */
 
 .main__brand_item_icon:active {
   background-color: red;
   color: yellow;
+}
+
+.menu__boxes_item:hover img {
+  animation: moving-icons 0.5s ease-in-out;
+}
+
+.main__category_item:hover img {
+  animation: moving-icons 0.5s ease-in-out;
 }
